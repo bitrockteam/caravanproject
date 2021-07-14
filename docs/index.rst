@@ -4,12 +4,12 @@
     :glob:
     :hidden:
     
-    Home.rst
-    Changelog.rst
-    Getting-started-on-AWS.rst
-    Getting-started-on-GCP.rst
-    Getting-started-on-Azure.rst
-    HashiCorp-Enterprise.rst
-    Deploying-applications.rst
-    Known-Issues.rst
+    home.rst
+    changelog.rst
+    getting-started-on-aws.rst
+    getting-started-on-gcp.rst
+    getting-started-on-azure.rst
+    hashicorp-enterprise.rst
+    deploying-applications.rst
+    known-issues.rst
 
