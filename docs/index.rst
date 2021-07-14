@@ -17,9 +17,9 @@ OpenSource and Enterprise versions of HashiCorp products.
 Currently supported platforms
 -----------------------------
 
-* `-`  Amazon Web Services (AWS)
-* `-`  Google Cloud Platform (GCP)
-* `-`  Microsoft Azure
+* Amazon Web Services (AWS)
+* Google Cloud Platform (GCP)
+* Microsoft Azure
 
 .. toctree::
     :maxdepth: 2
