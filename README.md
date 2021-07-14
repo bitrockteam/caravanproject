@@ -1,4 +1,4 @@
-# caravan-docs
+# Caravan Documentation
 
 
 ### Usage
