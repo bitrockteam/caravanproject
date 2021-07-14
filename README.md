@@ -1,5 +1,8 @@
 # caravan-docs
 
+
+### Usage
+
 On MacOS:
 
 ```console
