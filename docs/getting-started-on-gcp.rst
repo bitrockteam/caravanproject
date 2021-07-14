@@ -56,7 +56,8 @@ Build infrastructure
    cd ~/caravan/caravan-infra-gcp
    ./project-setup.sh BILLING_ACCOUNT_ID ORG_ID PARENT_PROJECT_ID PROJECT_ID PROJECT_NAME REGION
 
-The script will provision resources needed for Terraform run: 
+The script will provision resources needed for Terraform run:
+
 * a GCP Project linked to a billing account 
 * a service account with the needed permissions in the newly created project and the parent one 
 * a GCS bucket for state store
