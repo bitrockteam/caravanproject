@@ -1,8 +1,11 @@
+Getting started on GCP
+######################
+
 Prerequisites
--------------
+~~~~~~~~~~~~~
 
 Clone repos
-~~~~~~~~~~~
+^^^^^^^^^^^
 
 .. code:: shell
 
@@ -14,14 +17,14 @@ Clone repos
    git clone git@github.com:bitrockteam/caravan-application-support.git
 
 Install and configure Google Cloud CLI
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Please refer to `Google Cloud
 documentation <https://cloud.google.com/sdk/docs/install>`__ for
 installing and configuring Google Cloud CLI.
 
 Build VM images
----------------
+~~~~~~~~~~~~~~~
 
 .. code:: shell
 
@@ -39,7 +42,7 @@ Build VM images
    terraform apply -var-file gcp.tfvars
 
 Build infrastructure
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 .. code:: shell
 
@@ -81,7 +84,7 @@ or
    terraform apply -var-file gcp.tfvars
 
 Configure the platform
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: shell
 
@@ -94,7 +97,7 @@ Configure the platform
    terraform apply -var-file PREFIX-gcp.tfvars # replace with your prefix
 
 Deploy platform applications
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: shell
 
@@ -102,7 +105,7 @@ Deploy platform applications
    # repeat as per caravan-platform
 
 Teardown
---------
+~~~~~~~~
 
 Destroy resources in all projects via
 ``terraform destroy -var-file gcp.tfvars``

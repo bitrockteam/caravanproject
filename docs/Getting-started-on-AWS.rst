@@ -1,8 +1,11 @@
+Getting started on AWS
+######################
+
 Prerequisites
--------------
+~~~~~~~~~~~~~
 
 Clone repos
-~~~~~~~~~~~
+^^^^^^^^^^^
 
 .. code:: shell
 
@@ -14,14 +17,14 @@ Clone repos
    git clone git@github.com:bitrockteam/caravan-application-support.git
 
 Install and configure AWS CLI
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Please refer to `AWS User
 Guide <https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html>`__
 for installing and configuring AWS CLI.
 
 Build VM images
----------------
+~~~~~~~~~~~~~~~
 
 .. code:: shell
 
@@ -40,7 +43,7 @@ Build VM images
    terraform apply -var-file aws.tfvars
 
 Build infrastructure
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 .. code:: shell
 
@@ -80,7 +83,7 @@ or
    terraform apply -var-file aws.tfvars
 
 Configure the platform
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: shell
 
@@ -95,7 +98,7 @@ Configure the platform
    terraform apply -var-file $PREFIX-aws.tfvars
 
 Deploy platform applications
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: shell
 
@@ -103,7 +106,7 @@ Deploy platform applications
    # repeat as per caravan-platform
 
 Teardown
---------
+~~~~~~~~
 
 Destroy resources in all projects via
 ``terraform destroy -var-file aws.tfvars``.

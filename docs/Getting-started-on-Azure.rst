@@ -1,8 +1,11 @@
+Getting started on Azure
+########################
+
 Prerequisites
--------------
+~~~~~~~~~~~~~
 
 Caveat
-~~~~~~
+^^^^^^
 
 Due to the complexity of Azure Resource Manager and Azure Active
 Directory roles, you need to be: - Owner of a Subscription - at least
@@ -14,7 +17,7 @@ executed via CLI or Azure Portal, so you can ask you Azure Administrator
 to perform them.
 
 Clone repos
-~~~~~~~~~~~
+^^^^^^^^^^^
 
 .. code:: shell
 
@@ -26,7 +29,7 @@ Clone repos
    git clone git@github.com:bitrockteam/caravan-application-support.git
 
 Install and configure Azure CLI
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Refer to `Microsoft
 Docs <https://docs.microsoft.com/en-us/cli/azure/install-azure-cli>`__
@@ -38,7 +41,7 @@ tenant. We require the existence of a resource group containing a public
 DNS zone.
 
 Build VM images
----------------
+~~~~~~~~~~~~~~~
 
 .. code:: shell
 
@@ -59,7 +62,7 @@ Note: if you need, you can create an Azure Service Principal for running
 Packer in the next section.
 
 Build infrastructure
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 .. code:: shell
 
@@ -97,7 +100,7 @@ If you would like to try CSI, see the content of ``zzz_vault_ad_app``
 Terraform output.
 
 Configure the platform
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: shell
 
@@ -110,7 +113,7 @@ Configure the platform
    terraform apply -var-file PREFIX-azure.tfvars # replace with your prefix
 
 Deploy platform applications
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: shell
 
@@ -118,7 +121,7 @@ Deploy platform applications
    # repeat as per caravan-platform
 
 Teardown
---------
+~~~~~~~~
 
 Destroy resources in all projects via
 ``terraform destroy -var-file azure.tfvars``

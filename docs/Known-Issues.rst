@@ -1,7 +1,10 @@
+Known Issues
+############
+
 In this page we list the known issues and possible workarounds
 
 Application Support
--------------------
+*******************
 
 Failed to delete ‘global’ config entry
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18,7 +21,7 @@ Solution
 https://github.com/bitrockteam/caravan-application-support/issues/33
 
 Azure
------
+*****
 
 Error ensuring Resource Providers are registered
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,9 +55,7 @@ Error ensuring Resource Providers are registered
 Solution
 ^^^^^^^^
 
-Take note of the provider failing to register, in our case
-“Microsoft.AVS”. With a privileged account configured locally, manually
-register the provider via CLI:
+Take note of the provider failing to register, in our case “Microsoft.AVS”. With a privileged account configured locally, manually register the provider via CLI:
 
 ::
 
@@ -78,10 +79,10 @@ level. For example:
 Solution
 ^^^^^^^^
 
-You might need to rerun ``terraform destroy`` a couple times
+You might need to rerun ``terraform destroy`` a couple of times.
 
-Enterprise
-----------
+Enterprise provisioning
+***********************
 
 Cannot write to readonly storage
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -95,5 +96,8 @@ Cannot write to readonly storage
 
    * error performing token check: failed to persist lease entry: cannot write to readonly storage
 
-Solution: this is a random error, retrying the failing command should
-result in a success
+Solution
+^^^^^^^^
+
+This is a random error, retrying the failing command should
+result in a success.

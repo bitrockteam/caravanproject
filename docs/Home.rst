@@ -1,5 +1,5 @@
 Welcome to Caravan!
-===================
+###################
 
 What is Caravan?
 ----------------
@@ -17,6 +17,17 @@ OpenSource and Enterprise versions of HashiCorp products.
 Currently supported platforms
 -----------------------------
 
--  Amazon Web Services (AWS)
--  Google Cloud Platform (GCP)
--  Microsoft Azure
+* `-`  Amazon Web Services (AWS)
+* `-`  Google Cloud Platform (GCP)
+* `-`  Microsoft Azure
+
+
+Caravan 0.1
+-----------
+
+First public beta release 🎉 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* `-` Fully automated deployment of Vault, Consul, Nomad and some goodies.
+* `-` Support for AWS, Azure and GCP.
+* `-` Support for HashiCorp Enterprise products.
