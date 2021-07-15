@@ -1,6 +1,6 @@
 # Caravan Documentation
 
-[![Documentation Status](https://readthedocs.org/projects/caravan-docs/badge/?version=latest)](https://caravan-docs.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/caravanproject/badge/?version=latest)](https://caravanproject.readthedocs.io/en/latest/?badge=latest)
 
 ### Usage
 
