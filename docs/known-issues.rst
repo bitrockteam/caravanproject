@@ -48,7 +48,7 @@ Error ensuring Resource Providers are registered
    More information on the "skip_provider_registration" flag can be found here:
    https://www.terraform.io/docs/providers/azurerm/index.html#skip_provider_registration
 
-   Original Error: Cannnot register providers: Microsoft.AVS. Errors were: Cannot register provider Microsoft.AVS with Azure Resource Manager: resources.ProvidersClient#Register: Failure responding to request: StatusCode=403 -- Original Error: autorest/azure: Service returned an error. Status=403 Code="AuthorizationFailed" Message="The client 'xxxx' with object id 'yyyy' does not have authorization to perform action 'Microsoft.AVS/register/action' over scope '/subscriptions/zzzz' or the scope is invalid. If access was recently granted, please refresh your credentials.".
+   Original Error: Cannot register providers: Microsoft.AVS. Errors were: Cannot register provider Microsoft.AVS with Azure Resource Manager: resources.ProvidersClient#Register: Failure responding to request: StatusCode=403 -- Original Error: autorest/azure: Service returned an error. Status=403 Code="AuthorizationFailed" Message="The client 'xxxx' with object id 'yyyy' does not have authorization to perform action 'Microsoft.AVS/register/action' over scope '/subscriptions/zzzz' or the scope is invalid. If access was recently granted, please refresh your credentials.".
 
 .. _solution-1:
 
