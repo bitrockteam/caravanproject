@@ -1,19 +1,19 @@
 Getting started on Azure
 ########################
 
-Prerequisites
+Requirements
 ~~~~~~~~~~~~~
 
 Caveat
 ^^^^^^
 
 Due to the complexity of Azure Resource Manager and Azure Active
-Directory roles, you need to be: - Owner of a Subscription - at least
-Application Administrator in AD
+Directory roles, you need to be: - Owner of a Subscription - and at least
+Application Administrator in AD.
 
-Furthermore, if you would like to try CSI Volumes, you might need to
+If you would like to try CSI Volumes, you might need to
 perform some operations as Global administrator. These steps are
-executed via CLI or Azure Portal, so you can ask you Azure Administrator
+executed via CLI or Azure Portal abd you might need to ask you Azure Administrator
 to perform them.
 
 Clone repos
@@ -77,10 +77,11 @@ Build infrastructure
 This will create ``azure.tfvars`` and ``backend.tf`` in the current
 directory. You can further edit ``azure.tvars`` with the needed changes.
 For example, you might be interested in setting ``use_le_staging=true``
-for Let’s Encrypt staging endpoint.
+to use for Let’s Encrypt staging endpoint and avoid being rate limited 
+if you are going to run certificates request too often initially.
 
 The two helper scripts ``run.sh`` and ``destroy.sh`` can be used to
-fully automate the provisioning and destroy of the entire stack,
+fully automate the provisioning and destroying of the entire stack,
 providing a one-click experience.
 
 To start the provisioning run:
