@@ -58,8 +58,8 @@ The script will provision resources needed for Terraform run: - S3
 Bucket for state store - DynamoDB Table for state locking
 
 This will also create ``aws.tfvars`` and ``backend.tf`` in the current
-directory. You can further edit ``aws.tvars`` with the needed changes.
-For example, you might be interested in setting ``use_le_staging=true``
+directory. You can further edit ``aws.tvars`` to modify the variables if needed.
+For example you may prefer setting ``use_le_staging=true``
 for Let’s Encrypt staging endpoint.
 
 You need to have an already existing route53 zone to use and configure
