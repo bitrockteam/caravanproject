@@ -18,7 +18,7 @@ Directory roles, you need to be:
 
 If you would like to try CSI Volumes, you might need to
 perform some operations as Global administrator. These steps are
-executed via CLI or Azure Portal abd you might need to ask you Azure Administrator
+executed via CLI or Azure Portal and you might need to ask you Azure Administrator
 to perform them.
 
 Clone repos
