@@ -5,14 +5,18 @@ What is Caravan?
 ----------------
 
 Caravan is your platform builder based on the HashiCorp stack. Terraform
-and Packer are used to deploy a distributed and ready to use platform
-composed by Vault, Consul and Nomad.
+and Packer are used to build and deploy a cloud native and ready to use platform
+composed from Vault, Consul and Nomad.
 
 The idea behind Caravan is to provide a one-click experience for
-deploying the entire infrastructure and configuration needed for running
-the entire HashiCorp stack in your desired provider. Infrastructure and
-configuration as code are the core of Caravan. Caravan supports both
+deploying an entire infrastructure and configuration needed for running
+the entire HashiCorp stack in your prefered cloud enviroment. Infrastructure and
+Configuration as Code are in the core of Caravan. Caravan supports both
 OpenSource and Enterprise versions of HashiCorp products.
+
+The Caravan's code is modular and layered to achive the maximum flexibility and yet 
+cover the most common use cases. Multiple cloud providers and optional components 
+can be mixed to achieve specific goals.
 
 Currently supported platforms
 -----------------------------
