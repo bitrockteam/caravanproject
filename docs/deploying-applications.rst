@@ -1,7 +1,7 @@
 Deploying applications
 ######################
 
-Once Caravan provisioned the entire platform, you are free to deploy
+Once Caravan has provisioned the entire platform, you are free to deploy
 applications via the standard set of Nomad APIs.
 
 In the repository

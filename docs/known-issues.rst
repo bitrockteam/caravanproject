@@ -1,7 +1,7 @@
 Known Issues
 ############
 
-In this page we list the known issues and possible workarounds
+Described below are the issues and we know about and the possible workarounds (if any).
 
 Application Support
 *******************
