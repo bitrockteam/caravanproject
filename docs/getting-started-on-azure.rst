@@ -8,8 +8,10 @@ Caveat
 ^^^^^^
 
 Due to the complexity of Azure Resource Manager and Azure Active
-Directory roles, you need to be: - Owner of a Subscription - at least
-Application Administrator in AD
+Directory roles, you need to be: 
+
+* Owner of a Subscription 
+* at least Application Administrator in AD
 
 Furthermore, if you would like to try CSI Volumes, you might need to
 perform some operations as Global administrator. These steps are
