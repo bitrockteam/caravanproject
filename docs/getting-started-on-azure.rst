@@ -82,7 +82,7 @@ Build infrastructure
 This will create ``azure.tfvars`` and ``backend.tf`` in the current
 directory. You can further edit ``azure.tvars`` with the needed changes.
 For example, you might be interested in setting ``use_le_staging=true``
-to use for Let’s Encrypt staging endpoint and avoid being rate limited 
+to use Let’s Encrypt staging endpoint and avoid being rate limited 
 if you are going to run certificate requests too often initially.
 
 The two helper scripts ``run.sh`` and ``destroy.sh`` can be used to
