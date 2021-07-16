@@ -64,8 +64,8 @@ The script will provision resources needed for Terraform run:
 
 This will also create ``gcp.tfvars`` and ``backend.tf`` in the current
 directory. You can further edit ``gcp.tvars`` with the needed changes.
-For example, you might be interested in setting use_le_staging=true 
-to use for Let’s Encrypt staging endpoint and avoid being rate limited
+For example, you might be interested in setting ``use_le_staging=true``
+to use Let’s Encrypt staging endpoint and avoid being rate limited
 if you are going to run certificate requests too often initially.
 
 The two helper scripts run.sh and destroy.sh can be used to fully
