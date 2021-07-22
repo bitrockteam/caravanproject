@@ -40,4 +40,3 @@ Currently supported platforms
     modules/index.rst
     known-issues.rst
     changelog.rst
-    caravan-vault-test.md
