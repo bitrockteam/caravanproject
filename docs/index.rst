@@ -39,3 +39,4 @@ Currently supported platforms
     deploying-applications.rst
     known-issues.rst
     changelog.rst
+    caravan-vault-test.md
