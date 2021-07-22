@@ -37,5 +37,6 @@ Currently supported platforms
     getting-started-on-azure.rst
     hashicorp-enterprise.rst
     deploying-applications.rst
+    modules/index.rst
     known-issues.rst
     changelog.rst
