@@ -8,4 +8,3 @@ Terraform Infrastructures
     ../caravan-infra-aws/*
     ../caravan-infra-gcp/*
     ../caravan-infra-azure/*
-    ../caravan-platform/*
