@@ -11,3 +11,4 @@ Terraform Modules
     ../caravan-bootstrap/*
     ../caravan-cloudinit/*
     ../caravan-acme-le/*
+    ../caravan-platform/*
