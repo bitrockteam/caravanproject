@@ -27,6 +27,44 @@ Currently supported platforms
 * Google Cloud Platform (GCP)
 * Microsoft Azure
 
+High-level architectural explanation 
+------------------------------------
+
+From an architectural point of view, Caravan is formed by 3 layers.
+Each layer has a scope.
+
+.. image:: images/10000.png
+  :width: 600
+  :alt: 10000foot
+
+
+Infrastructure layer
+^^^^^^^^^^^^^^^^^^^^
+
+.. image:: images/infra.png
+  :width: 600
+  :alt: infra
+
+The infrastructure layer is responsible for communicating with the cloud provider to provision all the resources the platform needs to function properly.
+
+The resources are related to compute, to network and to storage matters.
+
+Only in this layer there is the use of SSH connections for a lower level interaction with VMs.
+
+Platform layer
+^^^^^^^^^^^^^^
+
+.. image:: images/platform.png
+  :width: 600
+  :alt: platform
+
+Application Support layer
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: images/appsupp.png
+  :width: 600
+  :alt: appsupp
+
 .. toctree::
     :maxdepth: 2
     :glob:
